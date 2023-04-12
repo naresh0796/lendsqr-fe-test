@@ -1,0 +1,78 @@
+.userDetailCard2Section{
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  margin-top: 45px;
+
+.userDetailCard2Subsection{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.subSectionTitle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213F7D;
+  margin-bottom: 30px;
+}
+
+.subSectionList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+.singleDetail{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  max-width: 300px;
+  padding-right:100px;
+  margin-bottom: 30px;
+}
+
+.singleDetailTitle{
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #545F7D;
+  margin-bottom: 10px;
+}
+
+.singleUserDetail{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #545F7D;
+}
+
+.horizontalDivider{
+  width: 100%;
+  height: 1px;
+  background-color: rgba(33, 63, 125, 0.1);
+}
+}

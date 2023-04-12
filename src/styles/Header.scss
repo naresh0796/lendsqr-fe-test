@@ -1,0 +1,62 @@
+.headerSection
+{
+  position: fixed;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
+
+.imageSection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imageSection img{
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.rightSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 60px;
+
+  .headerUserPicture{
+    border-radius: 50%;
+    width: 40%;
+  }
+
+.docLink{
+  color: #213F7D;
+  text-decoration: underline;
+  margin-right: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.icon{
+  margin-right: 30px;
+  fill: #213F7D;
+  font-size: 40px;
+}
+
+.headerUserName{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213F7D;
+  margin-left: 10px;
+}
+}
+}
